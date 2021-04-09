@@ -1,0 +1,45 @@
+body {
+  background: slategrey;
+}
+
+.mapSVG {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+section {
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.divClass {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.subDivStyle {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  /* border: 1px solid red; */
+  padding-bottom: 15px;
+  /* width: 100px; */
+}

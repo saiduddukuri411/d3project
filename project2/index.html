@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Graph Visualization</title>
+    <meta name="description" content="Graph Visualizer" />
+    <meta name="author" content="SitePoint" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="d3.v3.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  </head>
+
+  <body>
+    <script src="data.js"></script>
+    <script src="functionHelper.js"></script>
+    <script src="plotter.js"></script>
+    <section>
+      <label for="cars">Choose a week:</label>
+      <select name="cars" id="cars" onChange="weekChanger(event);">
+        <option value="week1">Week1</option>
+        <option value="week2">Week2</option>
+        <option value="week3">Week3</option>
+        <option value="week4">Week4</option>
+        <option value="week5">Week5</option>
+      </select>
+    </section>
+  </body>
+</html>
